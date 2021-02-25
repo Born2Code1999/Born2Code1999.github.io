@@ -1,0 +1,98 @@
+/* Global Styles */
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    color: darkgrey;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img{
+    width: 300px;
+}
+h1{
+    font-size: 100px;
+    line-height: 1;
+}
+h2{
+    font-size: 45px;
+}
+h1, h2{
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+h3{
+    margin-bottom: 0;
+}
+h3 + p{
+    font-style: italic;
+}
+h3 ~ p{
+    margin: 0;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+/* Profile */
+header{
+    background: darkblue;
+    text-align: header;
+
+}
+/* Projects */
+.projects{
+    background: wheat;
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed darkgray;
+    padding: 25px 0;
+}
+.project-item img{
+     float: left;
+     margin-right: 20px;
+}
+.project-item h3{
+    margin-top: 0;
+}
+/* Work Exp */
+.work-experience{
+    background: lightblue;
+}
+.job-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+
+
+
+
+/* Contact */
+footer{
+    background-color: #343434;
+    color: #f7fff7;
+    text-align: center;
+}
+footer a{
+    color: yellowgreen;
+}
+.contact-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a{
+    padding: 15px;
+    display: inline-block;
+}
